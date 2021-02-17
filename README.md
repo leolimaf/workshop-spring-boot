@@ -29,7 +29,7 @@ Backend implementation of an e-commerce domain model, structured in the logical 
 # :hammer: Testing the Application
 
 1. Clone the repository and open it with your favorite IDE
-2. Change the value of the file **application.properties** from `spring.profiles.active=prod` to `spring.profiles.active=test`
+2. Change the value of the file **application.properties** from `spring.profiles.active=dev` to `spring.profiles.active=test`
 3. Run the Spring Boot Application and open [Postman](https://www.postman.com) (or another tool of your preference) to send the http requests
 4. Now you can test my application sending requests to the localhost, for example, http://localhost:8080/orders with method GET to obtain all the orders from the database of tests. The package **dev.leolimaf.workshopspringboot.resources** contain the controllers with all the possibilities of requests.
 5. If any error occurs, reload the **pom.xml** with Maven to download all the dependencies properly
